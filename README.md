@@ -178,6 +178,13 @@ This project taught me a lot beyond just clicking through installers.
 
 .Documentation Is Part of the Work – Writing this up as I went made the lab reproducible, not just something I did once and forgot.
 
-🔐 Security & Ethical Use
+🔐 Security & Ethical Use:
+
 This laboratory is intended strictly for education purposes only.
 
+👤 Author
+Sandra Chkumbi 
+ cybersecurity Intern 
+ 
+ LinkedIn:
+ https://www.linkedin.com/in/sandra-chikumbi-536160295?utm_source=share_via&utm_content=profile&utm_medium=member_android
