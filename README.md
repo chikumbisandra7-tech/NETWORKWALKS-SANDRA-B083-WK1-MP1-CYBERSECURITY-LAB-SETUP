@@ -177,11 +177,11 @@ This project taught me a lot beyond just clicking through installers.
 .Snapshots Matter – Taking one right after confirming everything works gives me a safe point to roll back to if I break something later.
 
 .Documentation Is Part of the Work – Writing this up as I went made the lab reproducible, not just something I did once and forgot.
-
+____
 🔐 Security & Ethical Use:
 
 This laboratory is intended strictly for education purposes only.
-
+____
 👤 Author
 Sandra Chkumbi 
  cybersecurity Intern 
@@ -190,7 +190,7 @@ Sandra Chkumbi
  https://www.linkedin.com/in/sandra-chikumbi-536160295?
 
 
- 
+ ____
 📌 Project Information
 
 Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
