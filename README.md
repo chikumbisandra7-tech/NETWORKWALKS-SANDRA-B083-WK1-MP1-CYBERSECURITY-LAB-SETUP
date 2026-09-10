@@ -162,7 +162,7 @@ A snapshot at this stage provides a clean, working checkpoint to restore to if t
 
 Step 9. Document the Setup:
 Each configuration step was recorded with screenshots to create a repeatable reference for rebuilding or extending the lab.
-
+____
 💡 WHAT I LEARNED:
 
 
@@ -183,6 +183,7 @@ ____
 This laboratory is intended strictly for education purposes only.
 ____
 👤 Author
+
 Sandra Chkumbi 
  cybersecurity Intern 
  
