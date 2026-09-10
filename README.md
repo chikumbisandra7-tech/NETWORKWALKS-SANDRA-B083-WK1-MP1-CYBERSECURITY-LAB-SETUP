@@ -1,4 +1,4 @@
-<img width="929" height="500" alt="421245" src="https://github.com/user-attachments/assets/c5403f00-49c5-4c8d-b7ca-b8ac3603c7f2" /># NETWORKWALKS-SANDRA-B083-WK1-MP1-CYBERSECURITY-LAB-SETUP
+ NETWORKWALKS-SANDRA-B083-WK1-MP1-CYBERSECURITY-LAB-SETUP
 Virtual cybersecurity Lab setup using virtual Box &amp; Kali Linux for ethical Hacking and cybersecurity practice(Networkwalks B083 Week1).
 
 
@@ -162,3 +162,18 @@ A snapshot at this stage provides a clean, working checkpoint to restore to if t
 
 Step 9. Document the Setup:
 Each configuration step was recorded with screenshots to create a repeatable reference for rebuilding or extending the lab.
+
+💡 WHAT I LEARNED:
+
+
+This project taught me a lot beyond just clicking through installers.
+
+.NAT vs. NAT Network – A NAT Network lets multiple VMs talk to each other and reach the internet, which is what makes a multi-machine lab possible in the first place.
+
+.VM Networking – I got a much clearer picture of how VirtualBox's virtual adapters affect what a machine can and can't reach.
+
+.Static IPs – Setting Kali's IP by hand instead of using DHCP keeps the lab consistent every time I use it.
+
+.Snapshots Matter – Taking one right after confirming everything works gives me a safe point to roll back to if I break something later.
+
+.Documentation Is Part of the Work – Writing this up as I went made the lab reproducible, not just something I did once and forgot.
