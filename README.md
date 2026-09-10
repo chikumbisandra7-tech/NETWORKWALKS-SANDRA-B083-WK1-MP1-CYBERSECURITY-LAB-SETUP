@@ -3,11 +3,13 @@ Virtual cybersecurity Lab setup using virtual Box &amp; Kali Linux for ethical H
 
 
 _____
-  🔐 Cybersecurity Lab Environment Setup
+  🔐 Cybersecurity Lab Environment Setup.
+  
 Building an isolated virtual lab for penetration testing and ethical hacking practice
 
 ____
   📌 Project OverView
+  
 This project focuses on setting up a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
 
 The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
@@ -15,6 +17,7 @@ The lab is configured on a private virtual network so that additional machines c
 
 
 🎯 OBJECTIVES
+
 The main objectives of this project are to:
 . Install and configure VirtualBox.
 . Install/import Kali Linux as a virtual machine.
@@ -28,6 +31,7 @@ The main objectives of this project are to:
 
 
  🛡️ PURPOSE OF THE LAB
+ 
 The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
 It can be used for activities such as:
 . Network reconnaissance
@@ -43,6 +47,7 @@ It can be used for activities such as:
                                                                                                                        
   
   🪜 Lab Setup Procedure
+  
   
  Step 1. Install WinRAR
 WinRAR was installed to extract the Kali Linux virtual-machine package, which is distributed as a compressed archive.
