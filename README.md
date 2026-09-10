@@ -177,3 +177,7 @@ This project taught me a lot beyond just clicking through installers.
 .Snapshots Matter – Taking one right after confirming everything works gives me a safe point to roll back to if I break something later.
 
 .Documentation Is Part of the Work – Writing this up as I went made the lab reproducible, not just something I did once and forgot.
+
+🔐 Security & Ethical Use
+This laboratory is intended strictly for education purposes only.
+
