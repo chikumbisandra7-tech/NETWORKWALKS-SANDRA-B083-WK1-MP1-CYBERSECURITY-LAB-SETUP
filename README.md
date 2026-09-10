@@ -112,3 +112,29 @@ The Kali VM's network adapter was configured to connect to the custom NAT Networ
 . Name: NatNetwork
 
 . Promiscuous Mode: Allow All
+
+Promiscuous Mode was set to "Allow All" so Kali can capture and analyze traffic from other VMs on the same network — this is required for packet sniffing and network scanning tools to work correctly in the lab.
+<img width="959" height="538" alt="421240" src="https://github.com/user-attachments/assets/9ea72150-a8a3-4989-b79f-174e3833e135" />
+
+Step 6. Assign a Static IP to Kali
+DHCP was disabled on the Kali VM and a static IP was configured instead, to keep the machine's address consistent across reboots.
+
+.🧩 Setting     . ⚙️ Value
+.Method          . Manual
+.Address         .10.0.0.2
+.Netmask         . 24 (255.255.255.0)
+.Gateway         . 10.0.0.1
+.DNS             .  8.8.8.8
+
+A static IP was used instead of DHCP because tools like Nmap, Metasploit, and Wireshark rely on knowing the exact IP of the attacking machine — a changing IP would break repeatability of the lab.
+
+Step 7. Verify Network Connectivity
+Connectivity was tested between Kali and the gateway/DNS to confirm the network was functioning correctly.
+
+.ping 10.0.0.1
+.ping 8.8.8.8
+.ping google.com
+.<img width="904" height="524" alt="421243" src="https://github.com/user-attachments/assets/71ec0282-86ba-4a27-a1aa-f21d70f37558" />
+
+
+A successful ping to the gateway confirms local network connectivity, while a successful ping to an external domain confirms both internet access and DNS resolution are working.
