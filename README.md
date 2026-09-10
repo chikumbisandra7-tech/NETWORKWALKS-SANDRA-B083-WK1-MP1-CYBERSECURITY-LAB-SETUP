@@ -51,35 +51,49 @@ It can be used for activities such as:
   
  Step 1. Install WinRAR
 WinRAR was installed to extract the Kali Linux virtual-machine package, which is distributed as a compressed archive.
+
 Tool: WinRAR
 
 
 Step 2. Install VirtualBox
 VirtualBox was installed as the hypervisor.
+
 Tool: VirtualBox
 
 
   Step 3. Create the NAT Network
 A dedicated NAT Network was created in VirtualBox.
+
 Configuration:
+
 . Network Name: NatNetwork
+
 . IPv4 Prefix: 10.0.0.0/24
+
 . DHCP: Enabled
+
 . IPv6: Disabled
 
 
 A NAT Network was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity. This will allow future attacker and target VMs to communicate within the lab.
 
 
+
  Step 4. Import Kali Linux VM
 The Kali Linux virtual machine was downloaded and imported into VirtualBox as a pre-built appliance.
+
 Tool: Kali Linux VirtualBox Images
 A pre-built Kali image was used instead of a manual install to save setup time and ensure a stable, verified base image for the lab.
 
 
+
 Step 5. Attach Kali to the NAT Network
 The Kali VM's network adapter was configured to connect to the custom NAT Network created in Step 3.
+
 . Configuration:Adapter 1: Enabled
+
 . Attached to: NAT Network
+
 . Name: NatNetwork
+
 . Promiscuous Mode: Allow All
