@@ -187,4 +187,10 @@ Sandra Chkumbi
  cybersecurity Intern 
  
  LinkedIn:
- https://www.linkedin.com/in/sandra-chikumbi-536160295?utm_source=share_via&utm_content=profile&utm_medium=member_android
+ https://www.linkedin.com/in/sandra-chikumbi-536160295?
+
+
+ 
+📌 Project Information
+
+Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
