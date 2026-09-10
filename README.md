@@ -58,9 +58,8 @@ It can be used for activities such as:
 
 . Security-tool experimentation
 
-    ⚠️ Disclaimer: This laboratory must only be used for systems that you own or have explicit permission to test           Do not use the lab or its tools to attack unauthorized systems.
-                                                                                                                       
-                                                                                                                       
+    ⚠️ Disclaimer: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
+                                                                                                                                                             
   
   🪜 Lab Setup Procedure
   
